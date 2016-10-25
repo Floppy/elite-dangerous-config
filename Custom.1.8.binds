@@ -280,7 +280,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_31">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
@@ -309,31 +311,39 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_20" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
-		<Primary Device="SaitekX52Pro" Key="Joy_20" />
+		<Primary Device="SaitekX52Pro" Key="Joy_22" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
-		<Primary Device="SaitekX52Pro" Key="Joy_22" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
-		<Primary Device="Keyboard" Key="Key_7" />
+		<Primary Device="SaitekX52Pro" Key="Joy_23">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman0>
 	<TargetWingman1>
-		<Primary Device="Keyboard" Key="Key_8" />
+		<Primary Device="SaitekX52Pro" Key="Joy_20">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman1>
 	<TargetWingman2>
-		<Primary Device="Keyboard" Key="Key_9" />
+		<Primary Device="SaitekX52Pro" Key="Joy_21">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman2>
 	<SelectTargetsTarget>
-		<Primary Device="Keyboard" Key="Key_0" />
+		<Primary Device="SaitekX52Pro" Key="Joy_22">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
@@ -341,15 +351,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Pos_Mouse_ZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Neg_Mouse_ZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="Keyboard" Key="Key_Space" />
+		<Primary Device="Mouse" Key="Mouse_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -361,11 +371,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="SaitekX52Pro" Key="Joy_10" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_3" />
+		<Secondary Device="Mouse" Key="Pos_Mouse_ZAxis">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Secondary>
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="SaitekX52Pro" Key="Joy_9" />
+		<Primary Device="Mouse" Key="Neg_Mouse_ZAxis">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
@@ -374,8 +388,8 @@
 	</DeployHardpointToggle>
 	<DeployHardpointsOnFire Value="0" />
 	<ToggleButtonUpInput>
-		<Primary Device="SaitekX52Pro" Key="Joy_13" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_14" />
+		<Secondary Device="SaitekX52Pro" Key="Joy_13" />
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
@@ -383,8 +397,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="SaitekX52Pro" Key="Joy_11" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_12" />
+		<Secondary Device="SaitekX52Pro" Key="Joy_11" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="SaitekX52Pro" Key="Joy_UAxis" />
@@ -396,7 +410,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
-		<Primary Device="Mouse" Key="Pos_Mouse_ZAxis" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
@@ -416,12 +430,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution>
 	<HMDReset>
-		<Primary Device="Keyboard" Key="Key_F12" />
+		<Primary Device="Mouse" Key="Mouse_2">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HMDReset>
 	<ToggleCargoScoop>
-		<Primary Device="SaitekX52Pro" Key="Joy_14" />
-		<Secondary Device="SaitekX52Pro" Key="Joy_12" />
+		<Primary Device="SaitekX52Pro" Key="Joy_10" />
+		<Secondary Device="SaitekX52Pro" Key="Joy_9" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
@@ -429,7 +445,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
-		<Primary Device="Mouse" Key="Mouse_2" />
+		<Primary Device="Mouse" Key="Mouse_1">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</LandingGearToggle>
 	<MicrophoneMute>
@@ -439,11 +457,15 @@
 	<MuteButtonMode Value="mute_toggle" />
 	<CqcMuteButtonMode Value="mute_pushToTalk" />
 	<UseShieldCell>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_2">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="SaitekX52Pro" Key="Joy_3" />
+		<Primary Device="SaitekX52Pro" Key="Joy_4">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<PhotoCameraToggle>
@@ -455,29 +477,37 @@
 	</PhotoCameraToggle>
 	<EnableMenuGroups Value="0" />
 	<UIFocus>
-		<Primary Device="SaitekX52Pro" Key="Joy_6" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
-		<Primary Device="Keyboard" Key="Key_1" />
+		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
-		<Primary Device="Keyboard" Key="Key_2" />
+		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
-	<FocusOnTextEntryField Value="1" />
+	<FocusOnTextEntryField Value="0" />
 	<QuickCommsPanel>
 		<Primary Device="Keyboard" Key="Key_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel>
 	<FocusRadarPanel>
-		<Primary Device="Keyboard" Key="Key_3" />
+		<Primary Device="SaitekX52Pro" Key="Joy_POV1Down">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
-		<Primary Device="Keyboard" Key="Key_4" />
+		<Primary Device="SaitekX52Pro" Key="Joy_POV1Right">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
@@ -528,7 +558,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Select>
 	<UI_Back>
-		<Primary Device="Keyboard" Key="Key_Backspace" />
+		<Primary Device="SaitekX52Pro" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Back>
 	<UI_Toggle>
